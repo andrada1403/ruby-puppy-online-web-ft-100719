@@ -1,6 +1,6 @@
 class Dog
   @@all=[]
-  attr
+  a
   def initialize (name)
     @name=name
     @@all<<self
