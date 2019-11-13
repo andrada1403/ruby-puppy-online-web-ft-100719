@@ -11,6 +11,6 @@ class Dog
     @@all.clear
   end
   def self.print_all
-      puts @name
+      puts @@all
   end
 end# Add your code here
