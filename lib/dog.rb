@@ -18,6 +18,8 @@ class Dog
     end
   end
   def save
-    @@all<<
+    @@all.each do |x|
+    @@all<<x.name
+    end
   end
 end
