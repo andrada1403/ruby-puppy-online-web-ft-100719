@@ -16,5 +16,7 @@ class Dog
       puts x.name
     end
   end
-  def 
+  def save
+    @@all<<@name
+  end
 end
