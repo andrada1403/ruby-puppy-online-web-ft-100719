@@ -1,6 +1,6 @@
 class Dog
   @@all=[]
-  a
+  attr_accessor :name
   def initialize (name)
     @name=name
     @@all<<self
